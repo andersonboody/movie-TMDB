@@ -1,0 +1,18 @@
+.header__categories {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--color-grey);
+
+  &-link {
+    padding: 10px 0px;
+    color: var(--color-grey);
+    font-size: 28px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: var(--color-light);
+    }
+  }
+}

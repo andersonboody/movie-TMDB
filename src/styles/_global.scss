@@ -1,0 +1,15 @@
+body {
+  background-color: var(--color-bg-dark);
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+p {
+  color: var(--color-grey);
+}
+button {
+  background-color: transparent;
+  border: none;
+}

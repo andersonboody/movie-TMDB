@@ -1,0 +1,26 @@
+.list-data {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 300px 800px;
+  justify-content: space-between;
+}
+.list-group {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__item {
+    border: 2px solid var(--color-grey);
+    border-radius: 10px;
+  }
+  &__link {
+    padding: 5px;
+    text-transform: uppercase;
+    color: var(--color-light);
+    &::after {
+      content: '>';
+      margin-left: 10px;
+    }
+  }
+}

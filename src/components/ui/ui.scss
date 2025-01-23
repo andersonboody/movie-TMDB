@@ -1,0 +1,13 @@
+.loading {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-spin {
+    color: var(--color-grey);
+  }
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-spin .ant-spin-dot {
+  font-size: 70px;
+}

@@ -1,0 +1,15 @@
+.card {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  &__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__text {
+    &--light {
+      color: var(--color-light);
+    }
+  }
+}

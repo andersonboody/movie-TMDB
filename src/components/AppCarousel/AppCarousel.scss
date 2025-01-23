@@ -1,0 +1,38 @@
+.carousel {
+  &__tags {
+    height: 300px;
+  }
+  &__item {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-around;
+  }
+  &__img {
+    height: 230px;
+  }
+  &__details {
+    display: grid;
+    grid-template-columns: 200px 300px 300px;
+    align-items: start;
+    gap: 30px;
+
+    &-name {
+      &--light {
+        color: var(--color-light);
+      }
+    }
+    &-data {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      &-name {
+        padding: 3px;
+        color: var(--color-light);
+        border: 1px solid var(--color-grey);
+        border-radius: 5px;
+      }
+    }
+  }
+}

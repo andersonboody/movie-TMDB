@@ -1,0 +1,18 @@
+.header {
+  padding-top: 40px;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 200px;
+  }
+  &__social-group {
+    &-list {
+      display: flex;
+      column-gap: 20px;
+    }
+  }
+}
